@@ -12,6 +12,7 @@ import {
   StarsCanvas,
   Fab,
 } from "./components";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -30,6 +31,8 @@ function App() {
           <StarsCanvas />
         </div>
         <Fab />
+
+        <Footer />
       </div>
     </BrowserRouter>
   );
