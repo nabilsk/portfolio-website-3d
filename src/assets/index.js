@@ -22,6 +22,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import digitalsalt from "./company/digitalsalt.png";
+import unectologo from "./company/unecto_logo.jpg";
 import digiinterface from "./company/digiinterface.jpg";
 import skygoal from "./company/skygoal.png";
 
@@ -51,6 +52,7 @@ export {
   tailwind,
   typescript,
   threejs,
+  unectologo,
   digitalsalt,
   digiinterface,
   skygoal,

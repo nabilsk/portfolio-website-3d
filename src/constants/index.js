@@ -19,6 +19,7 @@ import {
   mahindraLifespacesImage,
   placeholderImage,
   threejs,
+  unectologo,
 } from "../assets";
 
 export const navLinks = [
@@ -38,7 +39,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Front End Developer",
     icon: web,
   },
   {
@@ -100,14 +101,30 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
+    title: "Front End Developer",
+    company_name: "Navro Technologies(Unecto)",
+    icon: unectologo,
+    iconBg: "#14122e",
+    date: "Feb 2024 - Present",
+    points: [
+      "Lead the frontend development of Unecto, a community-building platform for university students.",
+      "Developed interactive features like event scheduling, social interaction tools, and real-time campus trends, increasing user engagement by 25% within 6 months.",
+      "Worked closely with product managers and backend teams to implement scalable solutions for user authentication, notifications, and real-time data updates, boosting user retention by 30%.",
+      "Optimized application performance by implementing data caching, lazy loading, and efficient state management, reducing load times by 20% and improving overall app performance.",
+      "Coordinated with the UX team to ensure a seamless and responsive UI/UX design, improving accessibility and user satisfaction.",
+    ],
+  },
+  {
+    title: "Front End Developer",
     company_name: "Digital Salt",
     icon: digitalsalt,
     iconBg: "#000000",
-    date: "Jun 2022 - Present",
+    date: "Jun 2022 - Feb 2024",
     points: [
-      "Developing and maintaining web applications using React.js, Node.js and other related technologies.",
+      "Developed and maintained client-side business logic for both admin panels and user-facing applications, improving product scalability and user experience.",
+      "Optimized performance by implementing data caching strategies on the client-side,which reduced app latency by 15%.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Created an internal component library that improved code reusability, cutting development time for new features by 20%.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
@@ -141,34 +158,27 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
+  {
+    name: "Unecto",
+    description: `A platform for UK university students, featuring community-building tools, event coordination, and campus trend updates. As a frontend developer, I designed and implemented a dynamic, user-friendly interface that boosted user engagement by 25% within six months.`,
+    tags: [
+      {
+        name: "react js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react native",
+        color: "green-text-gradient",
+      },
+      {
+        name: "next js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: unectologo,
+    source_code_link: "https://www.unecto.app/",
+  },
   {
     name: "Hedged",
     description: `Users who don't have enough knowledge of trading can use the Hedged app to get started with trading and analyse their portfolio while getting access to a wide range of personalised trade advice, news, observation charts, and much more.`,
@@ -262,4 +272,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
